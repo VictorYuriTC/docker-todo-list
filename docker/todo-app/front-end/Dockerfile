@@ -1,1 +1,4 @@
-
+FROM node:14-alpine
+WORKDIR /
+COPY . .
+EXPOSE 3000
